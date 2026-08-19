@@ -27,6 +27,4 @@ HTML5 · CSS3 · JavaScript · GSAP · LocalStorage
 
 Open `index.html` in a browser, or serve the folder with a local development server.
 
-## Portfolio tip
 
-Replace the demo imagery with your own optimized assets, add screenshots to this README, deploy the project, and keep a clean Git history with meaningful commits.
