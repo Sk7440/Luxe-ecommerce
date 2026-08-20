@@ -363,7 +363,33 @@ function bindUI() {
     $("#emailInput").value = "";
   };
 }
+let currentSlide = 0;
+const slides = document.querySelectorAll(".hero-slider .hero");
+const slideLabel = document.getElementById("slideLabel");
+const totalSlides = slides.length;
 
+function updateSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.classList.toggle("active", i === index);
+  });
+  slideLabel.textContent = `0${index + 1} / 0${totalSlides}`;
+}
+
+document.getElementById("nextSlide")?.addEventListener("click", () => {
+  currentSlide = (currentSlide + 1) % totalSlides;
+  updateSlide(currentSlide);
+});
+
+document.getElementById("prevSlide")?.addEventListener("click", () => {
+  currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+  updateSlide(currentSlide);
+});
+
+// Optional: Auto advance slides every 6 seconds
+setInterval(() => {
+  currentSlide = (currentSlide + 1) % totalSlides;
+  updateSlide(currentSlide);
+}, 6000);
 function animatePage() {
   if (!window.gsap) return;
   gsap.registerPlugin(ScrollTrigger);
