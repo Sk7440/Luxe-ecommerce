@@ -440,21 +440,36 @@ h2 em {
   border-radius: var(--radius);
   position: relative;
   overflow: hidden;
-  background: linear-gradient(145deg, #c9c1b4, #60594f);
+
 }
+
 .collection-card:nth-child(2) {
-  background: linear-gradient(145deg, #b6b4ac, #474743);
+  background-image: url('./Gemini_Generated_Image_eg13z9eg13z9eg13.jpg');
+  background-size: cover;          /* Stretches the image to cover the full card */
+  background-position: center;     /* Centers the texture neatly */
+  background-repeat: no-repeat;
 }
 .collection-card:nth-child(3) {
-  background: linear-gradient(145deg, #d0cbc2, #665f56);
+   background-image: url('.//Gemini_Generated_Image_9t6cgr9t6cgr9t6c.jpg');
+  background-size: cover;          /* Stretches the image to cover the full card */
+  background-position: center;     /* Centers the texture neatly */
+  background-repeat: no-repeat;
 }
 .collection-card:after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.7));
   opacity: 0.7;
 }
+.collection-card.tall {
+  grid-column: 1/-1;
+  height: 500px;
+  background-image: url('./Gemini_Generated_Image_2d2fdn2d2fdn2d2f.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .collection-card > div {
   position: absolute;
   bottom: 28px;

@@ -27,4 +27,7 @@ HTML5 · CSS3 · JavaScript · GSAP · LocalStorage
 
 Open `index.html` in a browser, or serve the folder with a local development server.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a9aceac (main changes are in process)
