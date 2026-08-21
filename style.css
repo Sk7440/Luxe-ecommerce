@@ -601,7 +601,7 @@ h2 em {
 .collection-card:nth-child(1) {
   grid-column: span 12;
   height: clamp(350px, 40vw, 500px);
-  background-image: url("./Gemini_Generated_Image_2d2fdn2d2fdn2d2f.jpg");
+  background-image: url("./images/Gemini_Generated_Image_2d2fdn2d2fdn2d2f.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -609,7 +609,7 @@ h2 em {
 
 .collection-card:nth-child(2) {
   grid-column: span 6;
-  background-image: url("./Gemini_Generated_Image_eg13z9eg13z9eg13.jpg");
+  background-image: url("./images/Gemini_Generated_Image_eg13z9eg13z9eg13.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -617,7 +617,7 @@ h2 em {
 
 .collection-card:nth-child(3) {
   grid-column: span 6;
-  background-image: url("./Gemini_Generated_Image_9t6cgr9t6cgr9t6c.jpg");
+  background-image: url("./images/Gemini_Generated_Image_9t6cgr9t6cgr9t6c.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
